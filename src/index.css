@@ -1,0 +1,23 @@
+/* index.css */
+
+:root {
+  color-scheme: light dark;
+}
+
+/* 기본 바디 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 다크 모드일 때 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #202123;
+    /* 약간 어두운 회색 */
+    color: #ffffff;
+  }
+}
