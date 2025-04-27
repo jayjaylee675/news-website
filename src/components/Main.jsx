@@ -1,5 +1,5 @@
 import './Main.css';
-import thumbnail from "../assets/thumbnail1.jpg"
+import thumbnail from "/assets/thumbnail1.jpg"
 import NewsList from "./NewsList"
 
 function Main() {
