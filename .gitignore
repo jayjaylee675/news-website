@@ -1,24 +1,22 @@
-# Logs
-logs
-*.log
+# Node.js 관련
+node_modules/
+dist/
+
+# 환경변수 파일
+.env
+
+# Vite 캐시
+.vite/
+
+# 운영체제별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# IDE 관련 (VSCode 같은거)
+.vscode/
+.idea/
